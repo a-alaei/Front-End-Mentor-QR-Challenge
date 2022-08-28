@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    font-family: 'Outfit';
+    margin: 0;
+    padding: 0;    
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+/* Class Styles */
+
+.card{
+    background-color: white;
+    margin: auto;
+    display: flex;
+    border-radius: 5%;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+}
+
+.card p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.card img{
+    margin: 20px 20px 20px 20px;
+    border-radius: 4%;
+}
